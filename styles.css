@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.shutterstock.com/image-photo/cricket-ball-resting-on-green-260nw-1791266033.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency for better readability */
+    padding: 20px;
+    text-align: center;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display the menu items horizontally */
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header nav ul li a:hover {
+    color: #666;
+}
+
+
+h1 {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changing font for the title */
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+main {
+    padding: 20px;
+}
+
+#stats {
+    margin-bottom: 20px;
+}
+
+#stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#stats ul li {
+    margin-bottom: 10px;
+}
+
+#teams {
+    display: block; /* Change display to block */
+}
+
+.team {
+    width: 100%; /* Set width to 100% */
+    margin: 10px 0; /* Adjust margin for spacing */
+    cursor: pointer;
+}
+
+.team img {
+    width: 30%; /* You can keep the image width as 70% or adjust as needed */
+    display: block; /* Ensure the image is displayed as a block */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#team-details {
+    display: none; /* Initially hide the team details */
+    margin-top: 20px; /* Add some space between teams and details */
+    text-align: center; /* Center align the content */
+}
+
+#team-details img {
+    max-width: 100%; /* Ensure the image fits within its container */
+}
+

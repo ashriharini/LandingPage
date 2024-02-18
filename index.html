@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2024 Landing Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IPL 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+               
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#stats">Stats</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="ipl-info">
+            <h2>About</h2>
+            <p>The Indian Premier League (IPL) is a professional Twenty20 cricket league in India, renowned for its electrifying atmosphere, top-notch cricketing talent, and high-stakes matches. It features franchise teams representing different cities, each comprising a mix of international and domestic players. The IPL is known for its fast-paced action, thrilling encounters, and vibrant fan base, making it one of the most popular and prestigious cricket tournaments worldwide.</p>
+        </section>
+       
+        <section id="teams">
+            <h2>Teams</h2>
+            <div class="team" onclick="showTeamInfo('chennai_super_kings')">
+                <h3>Chennai Super Kings</h3>
+                <img src="https://seeklogo.com/images/I/ipl-chennai-super-kings-logo-E534CFAF4A-seeklogo.com.png" alt="Chennai Super Kings Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('delhi_capitals')">
+                <h3>Delhi Capitals</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRENcowzMpcY3cuiI94abftWiReSOOH3Haovg&usqp=CAU" alt="Delhi Capitals Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('gujarat_titans')">
+                <h3>Gujarat Titans</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxlMuRpbZldiPq6uq13dk8_K8cMmucrPNpWQ&usqp=CAU" alt="Gujarat Titans Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('kolkata_knight_riders')">
+                <h3>Kolkata Knight Riders</h3>
+                <img src="https://media.crictracker.com/media/attachments/1671612736819_KKR-logo.jpeg" alt="Kolkata Knight Riders Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('lucknow_super_giants')">
+                <h3>Lucknow Super Giants</h3>
+                <img src="https://media.crictracker.com/media/featureimage/2022/01/Lucknow-Super-Giants-logo.jpg" alt="Lucknow Super Giants Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('mumbai_indians')">
+                <h3>Mumbai Indians</h3>
+                <img src="https://www.thetechoutlook.com/wp-content/uploads/2022/02/Untitled-design-2022-02-08T104323.651-300x169.jpg" alt="Mumbai Indians Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('punjab_kings')">
+                <h3>Punjab Kings</h3>
+                <img src="https://wallpapercave.com/wp/wp7104600.jpg" alt="Punjab Kings Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('rajasthan_royals')">
+                <h3>Rajasthan Royals</h3>
+                <img src="https://seeklogo.com/images/I/ipl-rajasthan-royals-logo-F69DDCEF15-seeklogo.com.png" alt="Rajasthan Royals Logo">
+            </div>
+            <div class="team" onclick="showTeamInfo('royal_challengers_bangalore')">
+                <h3>Royal Challengers Bangalore</h3>
+                <img src="https://whiteandblack.in/wp-content/uploads/2021/04/RCB-logo-design-IPL-300x300.jpg" alt="Royal Challengers Bangalore Logo">
+            </div>
+
+            <div class="team" onclick="showTeamInfo('sunrisers_hyderabad')">
+                <h3>Sunrisers Hyderabad</h3>
+                <img src="https://png.pngitem.com/pimgs/s/127-1270226_srh-logo-ipl-2018-png-download-ipl-team.png" alt="Sunrisers Hyderabad Logo">
+            </div>
+            <div id="team-details" class="hidden">
+                <!-- Team information will be displayed here -->
+            </div>
+            
+           
+            
+           
+            
+        </section>
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <p>Almost here........Stay tuned!!!</p>
+
+        </section>
+        
+
+        <section id="stats">
+            <h2>Stats</h2>
+            <ul>
+                <li>Defending Champions: Chennai Super Kings</li>
+                <li>The teams with the most IPL titles: Chennai Super Kings, Mumbai Indians</li>
+                <li>Most runs: Virat Kohli</li>
+                <li>Most wickets: Yuzvendra Chahal</li>
+                <li>Most centuries: Virat Kohli</li>
+                <li>Most half-centuries: David Warner</li>
+                <li>Most sixes: Chris Gayle</li>
+                <li>Most fours: Shikhar Dhawan</li>
+               
+            </ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
